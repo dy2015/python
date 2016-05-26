@@ -1,0 +1,31 @@
+一、安装Python
+        从网站上下载最新的版本，从http://python.org/download/下载。
+       安装过程与其他Windows软件类似。目前稳定版本为Python 2.7.11和Python 3.5.1。
+
+二、配置Python环境变量
+   1、对于Windows，点击控制面板->系统->高级->环境变量。
+   2、在“系统变量”表单中点击叫做PATH的变量，然后编辑这个变量，把D:\dev\python2.7.6加到它的结尾。当然，是Python所在的安装目录。
+   3、测试python环境变量是否设置成功
+      C:\Users\jiqinlin>python
+      Python 2.7.6 (default, Nov 10 2013, 19:24:24) [MSC v.1500 64 bit (AMD64)] on win32
+      Type "help", "copyright", "credits" or "license" for more information.
+      >>>
+ 
+三、python for eclipse插件安装
+   1、下载python for eclipse
+               下载地址：http://download.csdn.net/download/q52wow/2872235
+
+   2、解压pydev插件后，会发现有features、plugins两个文件夹，然后
+               把features文件夹下的文件移到D:\dev\eclipse\features目录下，
+               把plugins文件夹下的文件移到D:\dev\eclipse\plugins目录下。
+         注意：D:\dev\eclipse\为eclipse安装目录
+
+   3、重启eclipse，在windows->preferences出现PyDev配置项，表示PyDev插件安装成功。
+
+四、配置PyDev插件 ，在Window菜单中选Preference，
+   1、windows->preferences->PyDev->Interpreter - Python，
+   2、New一个Python解释器，填上解释器名字和路径，路径选相应的python.exe。
+   
+   
+   
+   
